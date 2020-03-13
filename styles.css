@@ -21,7 +21,7 @@
 }
 
 .portfolio-logo-row {
-  min-height: 300px;
+  min-height: 150px;
 }
 
 .is-compact .portfolio-logo-row {
@@ -29,10 +29,10 @@
 }
 
 .portfolio-logo {
-  background: url(images/liliana.png) 10% no-repeat;
+  background: url(images/logo.png) 10% no-repeat;
   background-size: cover;
-  height: 130px;
-  width: 500px;
+  width: 20em;
+  height: 8em;
   margin: auto auto 10px;
   display: flex;
   align-self: center;
@@ -86,6 +86,9 @@
 
 .portfolio-card .mdl-card__title {
   padding-bottom: 0;
+  display: flex;
+
+    justify-content: center;
 }
 
 .portfolio-blog-card-full-bg {
@@ -171,14 +174,42 @@ footer {
   background-size: cover;
 }
 .contac-image{
-  width: 3%;
+  width: 5%;
   border-radius: 10px;
 }
 .mdl-card__media{
   background: white;
 }
 .foto{
-  width: 30%;
-  border-radius: 50px;
+  width: 20%;
+  border-radius: 60px;
+  padding: 0 6em;
+}
+.mdl-card__title-text{
+  padding-right: 20%;
+}
+.mdl-card__title {
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #000;
+  display: block;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: center;
+  line-height: normal;
+  padding: 16px;
+  -webkit-perspective-origin: 165px 56px;
+  perspective-origin: 165px 56px;
+  -webkit-transform-origin: 165px 56px;
+  transform-origin: 165px 56px;
+  box-sizing: border-box;
+}
+.sobre-mi{
+  display: flex;
+  text-justify: auto;
 }
 

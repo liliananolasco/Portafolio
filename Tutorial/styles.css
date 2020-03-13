@@ -71,6 +71,8 @@ img.article-image {
 
 .portfolio-card .mdl-card__title {
   padding-bottom: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .no-padding {
